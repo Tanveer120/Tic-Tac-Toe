@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+    text-align: center;
+    
+}
+
+body{
+    background-color: #00C49A;
+}
+
+.gameArea{
+    height: 90vh;
+    width: 90vh;
+    margin: 5vh;
+    border: 10px solid #F8E16C;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: #F8E16C;
+    font-size: 120px;
+    color: #B8336A;
+}
+
+.gridRow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.gameGrids{
+    background-color:#FFC2B4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar{
+    background-color: #FFC2B4;
+    height: 90vh;
+    width: 70vh;
+    margin: 5vh;
+    border: 10px solid #B8336A;
+    background-color: #F8E16C;
+    color: #B8336A;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+}
+
+#resetButton{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #B8336A;
+    color: #FFC2B4;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#resetButton:hover{
+    background-color: #00C49A;
+    scale:1.04;
+}
+
+#resetGameButton{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #B8336A;
+    color: #FFC2B4;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#resetGameButton:hover{
+    background-color: rgb(255, 81, 0);
+    scale:1.04;
+}
+
+
+#winnerCrown{
+    display: none;
+    height: 250px;
+    width: 250px;
+    padding-top: 20px;
+}
+
+.Scoreboard{
+    font-size: 2.5rem;
+}
